@@ -1,0 +1,167 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="../favicon/favic32x32.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="nav.css">
+<link rel="stylesheet" type="text/css" href="loader.css">
+<link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <style>
+
+
+body{font-family: sans-serif;
+margin-bottom:0px;
+padding-bottom:0px;
+margin-left:20px;
+background: -webkit-linear-gradient(90deg, brown,white);
+} 
+header{
+
+  background-size:100%;
+    background-repeat: no-repeat;
+      text-shadow:1px 1px 4px brown;
+      font-size: 30px;
+    height:80px;
+    text-align:center;
+    padding-top:10px;
+    color:#993300;  
+    clear: both 
+    
+      
+}
+footer{
+  margin-top:5px;
+  padding:25px;
+  padding-left:60px;
+  box-shadow: 10px 0  15px black;
+}
+
+a{
+
+  color: black;
+}
+
+
+button{
+
+border-radius: 8px;
+background-color:pink;
+color:black;
+font-size: 10px;
+box-shadow: 3px 2px 3px black , 4px 5px 8px white;
+width:80px;
+
+}
+button:hover{
+background-color: brown;
+transition-duration: 0.6s;
+color: white;
+
+}
+</style>
+
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+
+
+
+  <div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+
+
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 300);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+
+
+<header>
+
+<ul >
+<li> <a href="hm1.html">Home</a></li>
+
+<li> <a href="comm.html">Commercial</a></li>
+<li> <a href="con1.html">Constructions</a></li>
+<li> <a href="res1.html">Residential</a></li>
+<li> <a class=" active" href="abt1.html">About</a></li>
+<li> <a href="#">Contact</a></li>
+
+</ul>
+
+</header>
+<div calss=" col-sm-12">
+<h1  style="text-align:center;padding:20px;color:#993300; text-shadow:2px 2px 4px black;font-size:50px;margin-top: 40px;">JOHN INTERIORS</h1>
+
+<h1 style="color:#993300; text-shadow: 0 0 3px white, 2px 2px 4px black ;font-family: GARAMOND; ">About Us</h1>
+<hr />
+
+<p style="text-align: justify; font-family: 'Times New Roman', Times, serif; font-size: 20px;color:brown;" >Brief introduction About us. We are delighted to introduce ourselves as a premiere interior decorators engaged in designing and execution of interiors for homes,offices,showrooms and other commercial buildings and turning them into pieces of beauty. Interior designing is an art that involves color, form and designing concepts to beautify and enliven a room or a location. We incorporate varied hues and shades of nature to generate a wider meaning into the enclosed spaces designed by us for day-to-day use in our life. <br />The Company promises to revamp and alter your place into a contemporary or traditional or an artistic set up. All You have to do is to give your imagination of free run for us to deliver. The company is equipped with knowledgeable, experienced, creative and meticulous professionals to render the services to total satisfaction of the customers.</p><br>
+</div>
+<footer >
+<img src="../1.jpg" align="center"  valign="center"/><br><br><br> 
+
+
+ <i class=" fa fa-arrow-up " onclick="topFunction()" id="myBtn" title="Go to top" style="font-size: 36px; margin-left: 1100px;  " > </i>
+
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+<a href="res1.html" class="previous">&laquo; Previous</a>
+<a href="#" class="next">Next &raquo;</a>
+
+
+
+
+<h5 style="text-align:center;color:grey;">&copy copyright 2017-2018, Sagar GR</h5>
+</footer>
+
+
+</div>
+
+
+
+
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
